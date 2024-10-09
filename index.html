@@ -21,7 +21,7 @@
     }
 
     #message-container div {
-      background-color: #CCC;
+      background-color: #88b8bb;
       padding: 5px;
     }
 
@@ -32,21 +32,31 @@
     #send-container {
       position: fixed;
       padding-bottom: 30px;
-      bottom: 0;
+      margin-bottom: 500px;
       background-color: white;
       max-width: 1200px;
       width: 80%;
       display: flex;
+      border-radius: 50%;
+      justify-content: center;
     }
 
     #message-input {
       flex-grow: 1;
+      border-radius: 10%;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .send-button {
+      border-radius: 50%;
+      color: blue;
     }
   </style>
 </head>
 <body>
   <div id="message-container"></div>
-  <form id="send-container">
+  <form id="send-container ">
     <input type="text" id="message-input">
     <button type="submit" id="send-button">Send</button>
   </form>
