@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "nodemon": "^3.1.7",
     "socket.io": "^4.8.0"
   },
   "scripts": {
@@ -12,5 +11,8 @@
   "main": "server.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
